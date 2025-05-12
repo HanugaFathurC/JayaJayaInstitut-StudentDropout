@@ -345,15 +345,19 @@ Model components saved using `joblib`:
 
 
 ### **Evaluation Metrics**
-
 | Metric    | Dropout | Graduate |
 | --------- | ------- | -------- |
 | Precision | 0.87    | 0.87     |
 | Recall    | 0.87    | 0.87     |
 | F1-Score  | 0.87    | 0.87     |
 
-* **Accuracy**: 87%
-* **Confusion Matrix**: Shows balanced classification with minimal misclassification between classes.
+* **Precision**: 87% for both classes, indicating the model is effective in predicting both dropout and graduate students.
+* **Recall**: 87% for both classes, showing the model's ability to identify at-risk students accurately.
+* **F1-Score**: 87% for both classes, indicating a good balance between precision and recall.
+
+* **Confusion Matrix**: 
+![Confusion Matrix](confusion-matrix.png)
+Shows balanced classification with minimal misclassification between classes.
 
 ### **Prototype Deployment**
 ![Protype](prototype-overview.png)
