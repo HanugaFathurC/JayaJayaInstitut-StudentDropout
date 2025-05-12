@@ -91,7 +91,7 @@ This command installs:
 
 
 ### **Business Dashboard**
-![Dashboard](hanugafc-dashboard.png)
+![Dashboard](hanugafc-dashboard.png)  
 The Business Dashboard was created using **Metabase** for data visualization and **PostgreSQL** as the database.
 The dashboard is designed to help Jaya Jaya Institut identifying actionable insights into student success 
 through 6 key visualizations.
@@ -356,11 +356,11 @@ Model components saved using `joblib`:
 * **F1-Score**: 87% for both classes, indicating a good balance between precision and recall.
 
 * **Confusion Matrix**: 
-![Confusion Matrix](confusion-matrix.png)
+![Confusion Matrix](confusion-matrix.png)  
 Shows balanced classification with minimal misclassification between classes.
 
 ### **Prototype Deployment**
-![Protype](prototype-overview.png)
+![Protype](prototype-overview.png)  
 The model was deployed as an interactive **Streamlit app** that allows users to:
 
 * Input student information
